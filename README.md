@@ -142,6 +142,18 @@ When the task is ready (`status: "ready"`), `solution` contains:
 | `answer` | `string` | The `lemin_answer` value to submit |
 | `challengeId` | `string` | The `lemin_challenge_id` value to submit |
 
+### Example
+
+```json
+{
+  "status": "ready",
+  "solution": {
+    "answer": "<lemin_answer hex value>",
+    "challengeId": "<lemin_challenge_id GUID>"
+  }
+}
+```
+
 ### How to use the result
 
 Submit `lemin_answer` and `lemin_challenge_id` form fields on the target site exactly as Capzy returns them.
