@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capzy.ai/capzy-logo.svg" alt="Capzy" width="220" />
+<img src="https://capzy.ai/capzy-icon.png" alt="Capzy" width="96" />
 
 # Lemin Cropped Captcha Solver
 
@@ -142,18 +142,6 @@ When the task is ready (`status: "ready"`), `solution` contains:
 | `answer` | `string` | The `lemin_answer` value to submit |
 | `challengeId` | `string` | The `lemin_challenge_id` value to submit |
 
-### Example
-
-```json
-{
-  "status": "ready",
-  "solution": {
-    "answer": "<lemin_answer hex value>",
-    "challengeId": "<lemin_challenge_id GUID>"
-  }
-}
-```
-
 ### How to use the result
 
 Submit `lemin_answer` and `lemin_challenge_id` form fields on the target site exactly as Capzy returns them.
@@ -178,6 +166,24 @@ Submit `lemin_answer` and `lemin_challenge_id` form fields on the target site ex
 Capzy solves 25+ captcha types. Full catalog at
 [capzy.ai/solvers](https://capzy.ai/solvers). Each type has its own
 solver repo on [github.com/capzy-ai](https://github.com/capzy-ai).
+
+## The Capzy platform
+
+Capzy is web access infrastructure for modern automation. Beyond captcha solving:
+
+| Product | What it does |
+|---------|--------------|
+| **[Solver API](https://capzy.ai/solvers)** | Solve 25+ captcha types through one HTTP API. |
+| **[Cloud Browser](https://capzy.ai/browser)** | Real remote Chrome over CDP / WebSocket, billed per GB. |
+| **[Fingerprint API](https://capzy.ai/fingerprints)** | Coherent, authentic browser fingerprints on demand. |
+| **[Proxies API](https://capzy.ai/proxies)** | Global proxy egress with simple per-GB pricing. |
+| **[Web Scraper API](https://capzy.ai/web-scraper)** | Fetch, render, bypass anti-bot, and extract in one call. |
+
+One API key and one wallet balance across every product.
+
+## Keywords
+
+`lemin cropped captcha solver`, `lemin cropped captcha captcha solver`, `lemin cropped captcha bypass`, `lemin cropped captcha api`, `solve lemin cropped captcha`, `lemin cropped captcha solving service`, `captcha solver`, `captcha solving api`, `automated captcha solver`, `captcha bypass api`
 
 ## License
 
